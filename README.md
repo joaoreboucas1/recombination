@@ -9,9 +9,11 @@ $$
 $$
 
 where
+
 $$
     \kappa(\tau_1, \tau_2) = \int_{\tau_1}^{\tau_2}an_e\sigma_Td\tau,
 $$
+
 $\kappa' = an_e\sigma_T$, $n_e$ is the number density of free electrons, $a$ is the scale factor, $\tau$ is the conformal time, and $\sigma_T$ is the Thomson scattering cross-section.
 
 In order to find $n_e$, we need to calculate recombination. The simplest result comes from the Saha equation. Let $x_e = n_e/n_H$, where $n_H$ is the number density of hydrogen atoms. The Saha equation assumes thermal equilibrium and states that
@@ -19,6 +21,7 @@ In order to find $n_e$, we need to calculate recombination. The simplest result 
 $$
     \frac{1 - x_e}{x_e^2} = \frac{2\zeta(3)}{\pi^2}\left(\frac{2\pi k_BT}{m_e}\right)^{3/2}e^{B_H/T},
 $$
+
 where $\zeta(3)$ is Apery's constant, $k_B$ is the Boltzmann constant, $m_e$ is the electron rest mass, $B_H$ is the neutral Hydrogen binding energy, and $T$ is the current temperature of thermal equilibrium.
 
 The Saha equation breaks down after recombination, as the formation of hydrogen atoms becomes less efficient and thermal equilibrium is destablished. The Saha equation predicts that the free electron number density decays exponentially after recombination, when in fact, freeze-out occurs and the free electron fraction becomes a constant.
@@ -28,6 +31,7 @@ From the electron fraction $x_e$, we calculate the free electron number density 
 $$
     n_e = x_en_H = x_e(1 - Y_\mathrm{He})n_b = x_e(1 - Y_\mathrm{He})\eta n_\gamma,
 $$
+
 where $Y_\mathrm{He}$ is the Helium fraction and $\eta$ is the baryon-to-photon ratio. $n_\gamma$ can be calculated as
 
 $$

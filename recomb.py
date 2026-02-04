@@ -88,7 +88,7 @@ axs[1,0].set_xlabel("$z$")
 axs[1,0].set_ylabel("$\\kappa$")
 
 axs[1,1].set_title("Visibility function")
-axs[1,1].plot(z, visibility)
+axs[1,1].plot(z, visibility/H0)
 axs[1,1].set_xlim([450, 2000])
 axs[1,1].set_xlabel("$z$")
 axs[1,1].set_ylabel("$g(z)$")
